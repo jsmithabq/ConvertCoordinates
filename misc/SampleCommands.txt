@@ -1,0 +1,15 @@
+
+gcc -DDEBUG -o convert_datum convert_datum.c -lm
+
+convert_datum
+
+java geo.CoordinateUtil
+
+java geo.CoordinateUtil -latlon 32.28305 -106.8003
+
+java geo.CoordinateUtil -utm 13s 330459 3573233
+
+latlon2utm.sh 32.28305 -106.8003
+
+utm2latlon.sh 13S 330459 3573233
+
