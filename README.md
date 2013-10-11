@@ -1,3 +1,6 @@
+ConvertCoordinates
+==================
+
 ConvertCoordinates is a simple, single-window application to convert
 coordinates among decimal lat-lon, degree-minute-second lat-lon, and
 UTM.
